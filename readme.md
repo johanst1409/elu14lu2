@@ -32,7 +32,7 @@ Iedere gegevens tabel heeft een bijbehorend [Eloquent model](https://laravel.com
 - Create: De create functie wordt uitgevoerd store method.
 - Read: De read functie wordt uitgevoerd in de index method voor alle gegevens in de tabel en in de show method voor een enkel object
 - Update: De update functie wordt uitgevoerd in de update method
-- Delete: De delete functie wordt uitgevoerd in de destroy method
+- Delete: De delete functie wordt uitgevoerd in de destroy method, de gegevens worden niet permanent verwijderd maar er wordt gebruik gemaakt van 'soft deletes', hier is voor gekozen om geen onderlinge relaties te breken.
 
 ### Data
 Het project bestaat uit 4 gegevens tabellen:
