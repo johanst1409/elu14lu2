@@ -1,6 +1,6 @@
 # AVANS Deeltijd 2018
 ## ELU 1.4 LU 2 - Programmeren en Testen
-De repopository voor een school opdracht.
+De repository voor een school opdracht.
 
 ## De Opdracht
 - Programmeren client-server applicatie
