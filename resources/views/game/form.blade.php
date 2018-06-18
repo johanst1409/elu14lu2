@@ -24,7 +24,7 @@
 								</div>
 								<div class="form-group">
 									<label for="rating">Rating</label>
-									<input type="number" class="form-control" name="rating" id="rating" min="0" max="100" step="5" value="{{ old('rating', $game->rating) }}">
+									<input type="number" class="form-control" name="rating" id="rating" min="0" max="100" value="{{ old('rating', $game->rating) }}">
 								</div>
 								<div class="form-group">
 									<label for="developer_id">Developer</label>
